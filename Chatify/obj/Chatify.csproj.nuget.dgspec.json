@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj": {}
+    "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\chatify\\chatify\\Chatify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj": {
+    "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\chatify\\chatify\\Chatify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj",
+        "projectUniqueName": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\chatify\\chatify\\Chatify.csproj",
         "projectName": "Chatify",
-        "projectPath": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj",
+        "projectPath": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\chatify\\chatify\\Chatify.csproj",
         "packagesPath": "C:\\Users\\hamza.shakeel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\obj\\",
+        "outputPath": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\chatify\\chatify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
