@@ -1,12 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Chatify-Real Time Chatting Application";
 }
-
 <style>
-
+.slider-bg{
+    background-image: linear-gradient(135deg, #2c3b85 0%, #6c5287 100%);}
 </style>
+
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg bg-primary position-absolute top-0 z-2 w-100  ">
+<nav class="navbar navbar-expand-lg  w-100  ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,36 +40,48 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner bg-dark ">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item  relative  ">
+      <div class="text-center text-black text-4xl absolute top-10 w-100" >
+       <h1>Welcome to Chatify</h1>
+        <p class="text-sm text-[orange] ">Real-time Chat Made Easy</p>
+      </div>
+      <div class="h-[95vh] w-100 md:h-[80vh] lg:h-[100vh] slider-bg ">
+                  <!-- <img class="absolute top-1/2"  src=" https://alienics.com/wp-content/uploads/2022/03/13581-2048x1579.jpg" /> -->
+      </div>
+    </div>
     <div class="carousel-item active">
-      <img class="h-[95vh] w-100 md:h-[80vh] lg:h-[100vh] " src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image"/>
+          <div class="h-[95vh] w-100 md:h-[80vh] lg:h-[100vh] slider-bg  ">
+            
+          </div>
     </div>
     <div class="carousel-item">
-      <img class="h-[95vh] w-100 md:h-[80vh] lg:h-[100vh] " src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image"/>
-    </div>
-    <div class="carousel-item">
-      <img class="h-[95vh] w-100 md:h-[80vh] lg:h-[100vh] " src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image"/>
-    </div>
+           <div class="h-[95vh] w-100 md:h-[80vh] lg:h-[100vh] slider-bg "></div>
+    </div> 
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
-  </button>
+  </button> -->
 </div>
 
 <!-- cards -->
 
-<div class=" py-4 bg-red-900 gap-4 w-100 md:bg-red-100 grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3">
+<div class="py-4 bg-red-900 gap-4 w-100 md:bg-red-100 grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3">
 <div class="card w-[90%]">
-  <img src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top w-100 h-36 " alt="card" >
+  <div>
+ <img src="https://images.ctfassets.net/rb9cdnjh59cm/7rGTbaMOb93m1DfUUboMOu/d428eaf8fae1f4fca412e8f38657a1a7/Network-security-system-G1141078949.jpg?fm=webP&w=530&h=280&fit=thumb " alt="card" >
+
+  </div>
   <div class="card-body text-center ">
-    <h5 class="card-title font-bold uppercase">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary my-2">Go somewhere</a>
+    <h5 class="card-title font-bold uppercase">Secure Communication</h5>
+    <p class="card-text ">We adhere to stringent security protocols to prevent unauthorized access, disclosure, or tampering of card data</p>
+    <a href="#" class="btn btn-primary my-2">Read More</a>
   </div>
 </div>
 <div class="card w-[90%]">
@@ -79,7 +92,7 @@
     <a href="#" class="btn btn-primary my-2">Go somewhere</a>
   </div>
 </div>
-<div class="card w-[90%] md:col-span-2 ">
+<div class="card w-[90%] md:col-span-2 lg:col-start-3">
   <img src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top w-100 h-36" alt="card" >
   <div class="card-body text-center ">
     <h5 class="card-title font-bold uppercase">Card title</h5>

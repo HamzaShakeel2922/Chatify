@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj": {}
+    "E:\\Chatify\\Chatify\\Chatify\\Chatify.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj": {
+    "E:\\Chatify\\Chatify\\Chatify\\Chatify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj",
+        "projectUniqueName": "E:\\Chatify\\Chatify\\Chatify\\Chatify.csproj",
         "projectName": "Chatify",
-        "projectPath": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\Chatify.csproj",
-        "packagesPath": "C:\\Users\\hamza.shakeel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza.shakeel\\source\\repos\\Chatify\\Chatify\\obj\\",
+        "projectPath": "E:\\Chatify\\Chatify\\Chatify\\Chatify.csproj",
+        "packagesPath": "C:\\Users\\nabiah.hassan\\.nuget\\packages\\",
+        "outputPath": "E:\\Chatify\\Chatify\\Chatify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hamza.shakeel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Users\\nabiah.hassan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -28,8 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
