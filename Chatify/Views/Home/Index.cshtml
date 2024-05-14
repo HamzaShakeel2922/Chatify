@@ -1,100 +1,62 @@
 ﻿@{
-    ViewData["Title"] = "Chatify-Real Time Chatting Application";
+  ViewData["Title"] = "Chatify-Real Time Chatting Application";
 }
 <style>
-.slider-bg{
-    background-image: linear-gradient(135deg, #2c3b85 0%, #6c5287 100%);}
-    h1:hover {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  opacity:0.5;
-  cursor:pointer;
-}
+  .slider-bg {
+    background-image: linear-gradient(135deg, #2c3b85 0%, #6c5287 100%);
+  }
+
+  h1:hover {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    opacity: 0.5;
+    cursor: pointer;
+  }
 </style>
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg  w-100  ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
 <!-- main carousel -->
 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="h-[95vh] md:h-[80vh] lg:h-[100vh] slider-bg flex justify-content-center align-items-center">
-        <img id="mainImage" src="https://alienics.com/wp-content/uploads/2022/03/13581-2048x1579.jpg" class=" w-100 h-100 opacity-30" />
-        <div class="text-center  font-semibold text-white text-[8vw]  absolute z-3 w-100" >
-        <h1 class=" " id="heroHeading" >Welcome to Chatify</h1>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <div class="h-[95vh] md:h-[80vh] lg:h-[100vh] slider-bg flex justify-content-center align-items-center">
+      <img id="mainImage" src="https://alienics.com/wp-content/uploads/2022/03/13581-2048x1579.jpg"
+        class=" w-100 h-100 opacity-30" />
+      <div class="text-center  font-semibold text-white text-[8vw]  absolute z-3 w-100">
+        <h1 class=" " id="heroHeading">Welcome to Chatify</h1>
         <p class="text-2xl text-[white]" id="heroSubtitle">Real-time Chat Made Easy</p>
       </div>
-      </div>
     </div>
+  </div>
 </div>
 <!-- cards -->
 
-<div class="py-4 bg-red-900 gap-4 w-100 md:bg-red-100 grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3">
-<div class="card w-[90%]">
-  <div>
- <img src="https://images.ctfassets.net/rb9cdnjh59cm/7rGTbaMOb93m1DfUUboMOu/d428eaf8fae1f4fca412e8f38657a1a7/Network-security-system-G1141078949.jpg?fm=webP&w=530&h=280&fit=thumb " alt="card" >
-
-  </div>
-  <div class="card-body text-center ">
-    <h5 class="card-title font-bold uppercase">Secure Communication</h5>
-    <p class="card-text ">We adhere to stringent security protocols to prevent unauthorized access, disclosure, or tampering of card data</p>
-    <a href="#" class="btn btn-primary my-2">Read More</a>
-  </div>
-</div>
-<div class="card w-[90%]">
-  <img src="images\card chat1.jpg" class="card-img-top w-100 h-44 opacity-80 " alt="card" >
-  <div class="card-body text-center ">
-    <h5 class="card-title font-bold uppercase">Instant Communication</h5>
-    <p class="card-text">Connect with Anyone, Anywhere.</p>
-    <a href="#" class="btn btn-primary my-2">Go somewhere</a>
-  </div>
-</div>
-
-<div class="card w-[90%]">
-  <div class="relative">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpXfVzFvjt7NzOZ1tXL7MZspjHILaMW9C2Cg&s" class="card-img-top w-100 h-44 opacity-70" alt="card">
-    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-3">
-      <p class="text-lg font-bold text-white">Join Us Today</p>
+  <div class="card w-[90%]">
+    <div class="relative">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpXfVzFvjt7NzOZ1tXL7MZspjHILaMW9C2Cg&s"
+        class="card-img-top w-100 h-44 opacity-70" alt="card">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-3">
+        <p class="text-lg font-bold text-white">Join Us Today</p>
+      </div>
+    </div>
+    <div class="card-body text-center ">
+      <h5 class="card-title font-bold uppercase">Get Started Today</h5>
+      <p class="card-text">Be Part of the Chatify Community.</p>
+      <a href="#" class="btn btn-primary my-2">Go somewhere</a>
     </div>
   </div>
-  <div class="card-body text-center ">
-    <h5 class="card-title font-bold uppercase">Get Started Today</h5>
-    <p class="card-text">Be Part of the Chatify Community.</p>
-    <a href="#" class="btn btn-primary my-2">Go somewhere</a>
-  </div>
-</div>
 
 
-<div class="card w-[90%] md:col-span-2 lg:col-start-3 slider-bg ">
-  @* <img src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top w-100 h-36" alt="card" > *@
-  <div class="card-body text-center ">
-    <h5 class="card-title font-bold uppercase">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary my-2">Go somewhere</a>
+  <div class="card w-[90%] md:col-span-2 lg:col-start-3 slider-bg ">
+    @* <img
+    src="https://images.pexels.com/photos/2955489/pexels-photo-2955489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    class="card-img-top w-100 h-36" alt="card" > *@
+    <div class="card-body text-center ">
+      <h5 class="card-title font-bold uppercase">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary my-2">Go somewhere</a>
+    </div>
   </div>
-</div>
 </div>

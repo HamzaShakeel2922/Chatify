@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Chatify\\Chatify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|d:\\chatify\\chatify\\chatify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|solutionrelative:chatify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|d:\\chatify\\chatify\\chatify\\api\\controller\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|solutionrelative:chatify\\api\\controller\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|d:\\chatify\\chatify\\chatify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|solutionrelative:chatify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|d:\\chatify\\chatify\\chatify\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|solutionrelative:chatify\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|d:\\chatify\\chatify\\chatify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|solutionrelative:chatify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|d:\\chatify\\chatify\\chatify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3FA1DE44-C5D6-4D72-BB65-1DB24759A2F0}|Chatify\\Chatify.csproj|solutionrelative:chatify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\Chatify\\Chatify\\Chatify\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "Chatify\\Controllers\\AboutController.cs",
+              "ToolTip": "D:\\Chatify\\Chatify\\Chatify\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "Chatify\\Controllers\\AboutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:36:37.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Chatify\\Chatify\\Chatify\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Chatify\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Chatify\\Chatify\\Chatify\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Chatify\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-14T07:36:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Chatify\\Chatify\\Chatify\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Chatify\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Chatify\\Chatify\\Chatify\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Chatify\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAMzMzMzMbwBQAAAAHAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T06:04:30.389Z",
+              "WhenOpened": "2024-05-14T07:34:28.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Chatify\\Chatify\\Chatify\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Chatify\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Chatify\\Chatify\\Chatify\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Chatify\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T06:04:00.548Z"
+              "DocumentIndex": 0,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "D:\\Chatify\\Chatify\\Chatify\\Api\\Controller\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "Chatify\\Api\\Controller\\AuthorizationController.cs",
+              "ToolTip": "D:\\Chatify\\Chatify\\Chatify\\Api\\Controller\\AuthorizationController.cs",
+              "RelativeToolTip": "Chatify\\Api\\Controller\\AuthorizationController.cs",
+              "ViewState": "AQIAAAUAAAAAMzMzMzMrwBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:23:44.587Z",
+              "EditorCaption": ""
             }
           ]
         }

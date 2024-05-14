@@ -1,6 +1,6 @@
 ﻿
-  const tl = gsap.timeline();
-  tl.from("#mainImage",{
+const tl = gsap.timeline();
+tl.from("#mainImage",{
     duration: 1,
     opacity:0,
     y: 40,
@@ -8,7 +8,7 @@
     x:1000,
     duration:1,
     opacity:0,
-    fontSize:"80px",
+    fontSize:"10px",
   }).from("#heroSubtitle",{
     x:-1000,
     duration:0.75,
