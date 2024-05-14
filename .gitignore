@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.dll
+*.pdb
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Visual Studio files
+.vscode/
+.vs/
+*/bin/
+*/obj/
+
+# Rider
+.idea/
+
+# Packages
+*.nupkg
+*.pfx
+
+# Resharper
+resharper/
+
+# Others
+*.Cache
+*.log
